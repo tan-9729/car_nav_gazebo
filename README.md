@@ -35,4 +35,5 @@ nav 导航:
 
 注意:    
 python文件记得给权限  
-cartographer包不含在本项目内，需要自己下载编译
+cartographer包不含在本项目内，需要自己下载编译  
+https://github.com/cartographer-project/cartographer_ros

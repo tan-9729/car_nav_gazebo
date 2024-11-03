@@ -1,0 +1,12 @@
+<launch>
+  <arg name="model" />
+  <arg name="gui" default="false" />
+
+  <param name="robot_description" textfile="/home/tan/lerning_ws/src/test_car/src/urdf/mbot_base.urdf" />
+  <param name="use_gui" value="$(arg gui)" />
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d /home/tan/lerning_ws/src/test_car/rviz/base2.rviz"/>
+</launch>
+

@@ -1,6 +1,10 @@
 ubuntu 20.04  
 Gazebo 建模，cartography建图，多点导航  
 
+演示视频：  
+建图：https://www.bilibili.com/video/BV12qSUY1EV4  
+导航：https://www.bilibili.com/video/BV144SHYBEVT  
+
 gazebo环境：  
 ``` roslaunch test_car gazebo_my_car.launch```  
 
